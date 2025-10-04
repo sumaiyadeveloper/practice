@@ -1,0 +1,26 @@
+/* Optional: Center table and add spacing */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Apply border and padding to all cells */
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Row colors */
+tr:nth-child(2) { background-color: #ffcccc; }  /* Sumaiya */
+tr:nth-child(3) { background-color: #ccffcc; }  /* Sanjana */
+tr:nth-child(4) { background-color: #ccccff; }  /* Nadiya */
+tr:nth-child(5) { background-color: #ffffcc; }  /* Mehjabin */
+tr:nth-child(6) { background-color: #e6ccff; }  /* Ridisha */
+tr:nth-child(7) { background-color: #ffe6cc; }  /* Jui */
+tr:nth-child(8) { background-color: #d9f2e6; }  /* Adrita */
+tr:nth-child(9) { background-color: #f0f0f0; }  /* Shreya */
+tr:nth-child(10) { background-color: #ffebcc; } /* Mahima */
+tr:nth-child(11) { background-color: #d0e0f0; } /* Extra Row */
